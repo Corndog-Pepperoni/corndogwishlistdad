@@ -5,13 +5,27 @@ body {
 }
 
 .title {
-    padding-top: 21%;
-    padding-bottom: 21%;
     font-size: 45pt;
     font-weight: bold;
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header img {
+    width: 17%;
+}
+
+header .title {
+    display: block;
+    color: white;
+}
+
+section {
     color: white;
     text-align: center;
 }
