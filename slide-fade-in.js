@@ -1,5 +1,5 @@
 // Select all items to animate
-const items = document.querySelectorAll(".object, .title, .divider, .subheader");
+const items = document.querySelectorAll("a, .title, .divider, .subheader");
 
 // Loop through each item and set an animation delay
 items.forEach((item, index) => {

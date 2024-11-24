@@ -1,5 +1,8 @@
 body {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 75px;
+    margin-left: 0;
+    margin-right: 0;
     font-family: sans-serif;
     background-color: rgb(17, 17, 17);
 }
@@ -7,6 +10,7 @@ body {
 .title {
     font-size: 45pt;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 header {
@@ -31,35 +35,56 @@ section {
 }
 
 .container {
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
-.object {
-    text-align: center;
-    width: 283.8px;
+.clothing-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
-.object img {
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(2.8px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    padding: 10%;
+    padding: 25px;
     border-radius: 15px;
+}
+
+.clothing-container img {
+    height: 350px;
+}
+
+.container img {
     width: 225px;
 }
 
-a {
-    display: flex;
-    width: 283.8px;
-    text-align: center;
-    text-decoration: none;
+@media screen and (max-width: 1320px) and (max-height: 2868px) {
+    .clothing-container img {
+        width: 225px;
+        height: 100%;
+    }
 }
 
 p {
@@ -73,8 +98,8 @@ p {
     text-align: center;
     font-size: 17pt;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 25px;
 }
 
 .divider {
