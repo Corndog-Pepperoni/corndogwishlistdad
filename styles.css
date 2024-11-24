@@ -69,6 +69,7 @@ p {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 .divider::before, .divider::after {
